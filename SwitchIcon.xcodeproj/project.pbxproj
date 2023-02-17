@@ -16,6 +16,8 @@
 		E67380B029A038BC005062E6 /* SwitchIconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67380AF29A038BC005062E6 /* SwitchIconTests.swift */; };
 		E67380BA29A038BC005062E6 /* SwitchIconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67380B929A038BC005062E6 /* SwitchIconUITests.swift */; };
 		E67380BC29A038BC005062E6 /* SwitchIconUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67380BB29A038BC005062E6 /* SwitchIconUITestsLaunchTests.swift */; };
+		E67380C929A03BE0005062E6 /* App Icons in Resources */ = {isa = PBXBuildFile; fileRef = E67380C829A03BE0005062E6 /* App Icons */; };
+		E67380CB29A0421B005062E6 /* BMAppIconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67380CA29A0421B005062E6 /* BMAppIconManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		E67380B529A038BC005062E6 /* SwitchIconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchIconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67380B929A038BC005062E6 /* SwitchIconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchIconUITests.swift; sourceTree = "<group>"; };
 		E67380BB29A038BC005062E6 /* SwitchIconUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchIconUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E67380C829A03BE0005062E6 /* App Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "App Icons"; sourceTree = "<group>"; };
+		E67380CA29A0421B005062E6 /* BMAppIconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMAppIconManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		E673809729A038BB005062E6 /* SwitchIcon */ = {
 			isa = PBXGroup;
 			children = (
+				E67380C829A03BE0005062E6 /* App Icons */,
 				E673809829A038BB005062E6 /* AppDelegate.swift */,
 				E673809A29A038BB005062E6 /* SceneDelegate.swift */,
 				E673809C29A038BB005062E6 /* ViewController.swift */,
@@ -106,6 +111,7 @@
 				E67380A129A038BC005062E6 /* Assets.xcassets */,
 				E67380A329A038BC005062E6 /* LaunchScreen.storyboard */,
 				E67380A629A038BC005062E6 /* Info.plist */,
+				E67380CA29A0421B005062E6 /* BMAppIconManager.swift */,
 			);
 			path = SwitchIcon;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			files = (
 				E67380A529A038BC005062E6 /* LaunchScreen.storyboard in Resources */,
 				E67380A229A038BC005062E6 /* Assets.xcassets in Resources */,
+				E67380C929A03BE0005062E6 /* App Icons in Resources */,
 				E67380A029A038BB005062E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E673809D29A038BB005062E6 /* ViewController.swift in Sources */,
+				E67380CB29A0421B005062E6 /* BMAppIconManager.swift in Sources */,
 				E673809929A038BB005062E6 /* AppDelegate.swift in Sources */,
 				E673809B29A038BB005062E6 /* SceneDelegate.swift in Sources */,
 			);
