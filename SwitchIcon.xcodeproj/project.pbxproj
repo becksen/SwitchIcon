@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E641284F29A2B4CB002CE46A /* BMAppIconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67380CA29A0421B005062E6 /* BMAppIconManager.swift */; };
+		E641285029A2B4CB002CE46A /* BMAppIconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67380CA29A0421B005062E6 /* BMAppIconManager.swift */; };
+		E641285229A57A3E002CE46A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E673809E29A038BB005062E6 /* Main.storyboard */; };
+		E641285329A57A3E002CE46A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E673809E29A038BB005062E6 /* Main.storyboard */; };
 		E673809929A038BB005062E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E673809829A038BB005062E6 /* AppDelegate.swift */; };
 		E673809B29A038BB005062E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E673809A29A038BB005062E6 /* SceneDelegate.swift */; };
 		E673809D29A038BB005062E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E673809C29A038BB005062E6 /* ViewController.swift */; };
@@ -16,7 +20,6 @@
 		E67380B029A038BC005062E6 /* SwitchIconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67380AF29A038BC005062E6 /* SwitchIconTests.swift */; };
 		E67380BA29A038BC005062E6 /* SwitchIconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67380B929A038BC005062E6 /* SwitchIconUITests.swift */; };
 		E67380BC29A038BC005062E6 /* SwitchIconUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67380BB29A038BC005062E6 /* SwitchIconUITestsLaunchTests.swift */; };
-		E67380C929A03BE0005062E6 /* App Icons in Resources */ = {isa = PBXBuildFile; fileRef = E67380C829A03BE0005062E6 /* App Icons */; };
 		E67380CB29A0421B005062E6 /* BMAppIconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67380CA29A0421B005062E6 /* BMAppIconManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +54,6 @@
 		E67380B529A038BC005062E6 /* SwitchIconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchIconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67380B929A038BC005062E6 /* SwitchIconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchIconUITests.swift; sourceTree = "<group>"; };
 		E67380BB29A038BC005062E6 /* SwitchIconUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchIconUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		E67380C829A03BE0005062E6 /* App Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "App Icons"; sourceTree = "<group>"; };
 		E67380CA29A0421B005062E6 /* BMAppIconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMAppIconManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +105,6 @@
 		E673809729A038BB005062E6 /* SwitchIcon */ = {
 			isa = PBXGroup;
 			children = (
-				E67380C829A03BE0005062E6 /* App Icons */,
 				E673809829A038BB005062E6 /* AppDelegate.swift */,
 				E673809A29A038BB005062E6 /* SceneDelegate.swift */,
 				E673809C29A038BB005062E6 /* ViewController.swift */,
@@ -213,7 +214,7 @@
 				};
 			};
 			buildConfigurationList = E673809029A038BB005062E6 /* Build configuration list for PBXProject "SwitchIcon" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -239,7 +240,6 @@
 			files = (
 				E67380A529A038BC005062E6 /* LaunchScreen.storyboard in Resources */,
 				E67380A229A038BC005062E6 /* Assets.xcassets in Resources */,
-				E67380C929A03BE0005062E6 /* App Icons in Resources */,
 				E67380A029A038BB005062E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E641285229A57A3E002CE46A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E641285329A57A3E002CE46A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E67380B029A038BC005062E6 /* SwitchIconTests.swift in Sources */,
+				E641285029A2B4CB002CE46A /* BMAppIconManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E67380BA29A038BC005062E6 /* SwitchIconUITests.swift in Sources */,
+				E641284F29A2B4CB002CE46A /* BMAppIconManager.swift in Sources */,
 				E67380BC29A038BC005062E6 /* SwitchIconUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,8 +314,10 @@
 			children = (
 				E673809F29A038BB005062E6 /* Base */,
 			);
+			indentWidth = 4;
 			name = Main.storyboard;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		E67380A329A038BC005062E6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -374,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -443,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7Y7MJA8KJ2;
@@ -453,6 +460,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7Y7MJA8KJ2;
@@ -481,6 +490,8 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

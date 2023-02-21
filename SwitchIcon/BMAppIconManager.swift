@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class BMAppIconManager {
+
     enum BMAppIcon: CaseIterable {
         case classic,
              AppIcon,
@@ -57,4 +57,4 @@ class BMAppIconManager {
             }
         }
     }
-}
+
