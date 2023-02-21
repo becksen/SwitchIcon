@@ -4,23 +4,6 @@
 <dict>
 	<key>CFBundleIcons</key>
 	<dict>
-		<key>CFBundleAlternateIcons</key>
-		<dict>
-			<key>blackIcon</key>
-			<dict>
-				<key>CFBundleIconFiles</key>
-				<array>
-					<string>blackIcon</string>
-				</array>
-			</dict>
-			<key>purpleIcon</key>
-			<dict>
-				<key>CFBundleIconFiles</key>
-				<array>
-					<string>Test_2-40</string>
-				</array>
-			</dict>
-		</dict>
 		<key>CFBundlePrimaryIcon</key>
 		<dict>
 			<key>CFBundleIconFiles</key>
